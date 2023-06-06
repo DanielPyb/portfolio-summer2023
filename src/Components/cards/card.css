@@ -1,0 +1,29 @@
+.card {
+  color: white;
+  width: 415px;
+  height: 415px;
+  background: linear-gradient(
+    162.27deg,
+    rgba(255, 255, 255, 0.25) 0.52%,
+    rgba(255, 255, 255, 0.05) 92.56%,
+    rgba(255, 255, 255, 0) 99.25%
+  );
+  filter: drop-shadow(0px 12px 10px rgba(26, 15, 12, 0.25));
+  backdrop-filter: blur(12.45px);
+  border: 1px solid white;
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 15px;
+}
+
+.card-title{
+    padding-left: 16px;
+}
+
+.card-image{
+    width: 100%;
+}
+
+.card:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.background {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: radial-gradient(
+    176.56% 86.79% at 19.69% 13.21%,
+    #7930c1 0%,
+    #03053c 100%
+  );
+}
+
+.top-ball {
+  box-sizing: border-box;
+  width: 120px;
+  padding-bottom: 80%;
+  background: radial-gradient(
+      117.37% 118.88% at 88.36% 66.81%,
+      #6329a9 7.06%,
+      #7032ba 57.01%,
+      #9c5bdd 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border: 0.25px solid rgba(255, 255, 255, 0.6);
+  border-radius: 100%;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+  margin-top: 40px;
+}
+
+.hero-text {
+  font-size: 16px;
+  color: white;
+  width: 185px;
+}
+
+.hero-image{
+    padding-top: 16px;
+    width: 250px;
+}
+
+.ball-container {
+  width: 120px;
+  height: 120px;
+}
+.lower-ball {
+  box-sizing: border-box;
+  width: 120px;
+  padding-bottom: 80%;
+  background: radial-gradient(
+      117.37% 118.88% at 88.36% 66.81%,
+      #6329a9 7.06%,
+      #7032ba 57.01%,
+      #9c5bdd 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border: 0.25px solid rgba(255, 255, 255, 0.6);
+  border-radius: 100%;
+  clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+  background-position: center bottom;
+}
