@@ -1,24 +1,12 @@
 import React from "react";
-import ecom from "../../images/ecom.png";
 import "./styles.css";
 
-export default function Modal({selectedProject}) {
-  const project = {
-    title: "e-com for å handle",
-    task: "Create an E-commerce site using an API that's been delivered by the school. The webpage should follow certain criterias such as haveing a homepage, individual product-page, cart page, checkout success page. Use React Router for moving between the pages",
-    description: "Delivery from when I learned about Javascript Frameworks",
-    links: {
-      github: "https://github.com/DanielPyb/JavaScript-Frameworks-ca",
-      livesite: "https://gentle-moonbeam-0d36cb.netlify.app/",
-    },
-    tools: ["React", "Bootstrap", "Figma"],
-    image: ecom,
-    created: "Apr 02 2023",
-    id: 3,
-  };
+export default function Modal({ project, toggleModal}) {
   return (
     <>
-    <div className="modal-overlay"></div>
+    {project && (
+        <>
+    <div className="modal-overlay" onClick={toggleModal}></div>
     <div className="modal">
     <div className="modal-content">
       <h1>{project.title}</h1>
@@ -50,7 +38,8 @@ export default function Modal({selectedProject}) {
       </div>
       </div>
     </div>
-    
+    </>
+    )}
     </>
   );
 }

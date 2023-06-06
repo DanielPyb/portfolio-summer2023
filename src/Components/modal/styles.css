@@ -3,7 +3,7 @@
   width: 100%;
   max-width: 1057px;
   height: 1057px;
-  left: calc(50% - 1057px / 2 + 0.5px);
+  margin: 0 auto;
   top: 32px;
     border: 0.25px solid white;
   background: linear-gradient(
