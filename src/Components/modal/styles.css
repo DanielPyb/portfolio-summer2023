@@ -2,15 +2,15 @@
   position: absolute;
   width: 100%;
   max-width: 1057px;
-  height: 1057px;
+  min-height: 1057px;
   margin: 0 auto;
   top: 32px;
     border: 0.25px solid white;
   background: linear-gradient(
     162.27deg,
-    rgba(255, 255, 255, 0.25) 0.52%,
-    rgba(255, 255, 255, 0.05) 92.56%,
-    rgba(255, 255, 255, 0) 99.25%
+    rgba(2, 4, 35, 0.25) 0.52%,
+    rgba(1, 1, 13, 0.396) 92.56%,
+    rgba(0, 0, 0, 0) 99.25%
   );
   filter: drop-shadow(0px 30px 25px rgba(26, 15, 12, 0.68));
   backdrop-filter: blur(35px);
@@ -30,7 +30,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(26, 15, 12, 0.383);
+    background-color: rgba(0, 2, 28, 0.595);
     z-index: 5;
 }
 

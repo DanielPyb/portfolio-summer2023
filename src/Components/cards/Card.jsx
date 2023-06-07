@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./card.css";
+import "./styles.css";
 import Modal from "../modal/Modal";
 
 export default function Card({ project }) {
